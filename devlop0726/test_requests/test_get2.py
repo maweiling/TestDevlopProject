@@ -48,7 +48,7 @@ class TestWeWorkAccess:
     # 删除成员
     def test_del_memeber(self):
         params = {
-            "userid": "zhangsan"
+            "userid": "zhangsan1"
         }
         r = self.s.get(url="https://qyapi.weixin.qq.com/cgi-bin/user/delete", params=params)
         print(r.json())
